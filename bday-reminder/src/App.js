@@ -13,7 +13,7 @@ function App() {
       <section className="container">
         <h3>Today is {date}</h3>
         <TodayBirthday people={people} today={today} />
-        <h3>All Barrow Birthdays</h3>
+        <h3>All Birthdays</h3>
         <List people={people} />
         <button className="btn" onClick={() => setPeople([])}>
           Clear Birthdays
